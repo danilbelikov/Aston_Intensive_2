@@ -1,13 +1,14 @@
 <resources>
     <string name="app_name">Aston_2</string>
     <string name="happy_birthday">Happy Birthday to Алексей!</string>
-    <string name="_1_1_android_studio_and_hello_world">1.1: Android Studio and Hello World</string>
+    <string name="_1_1_android_studio_and_hello_world">1.1: + Coding challenge</string>
     <string name="ops">Ooppss..</string>
-    <string name="challange11">На экране текст для Coding Challange :)</string>
-    <string name="android_fundamentals_01_2_part_a_your_first_interactive_ui">1.2 Part A: Your first interactive UI</string>
+    <string name="challange11">На экране текст для Coding Challenge :)</string>
+    <string name="android_fundamentals_01_2_part_a_your_first_interactive_ui">1.2 Part A + Coding Challenge</string>
+    <string name="android_fundamentals_01_2_part_b_your_first_interactive_ui">1.2 Part B + Homework</string>
     <string name="button_label_toast">Toast</string>
     <string name="button_label_count">Count</string>
     <string name="count_initial_value">0</string>
     <string name="toast_message">Hello Toast!</string>
-
+    <string name="zero_value">ZERO</string>
 </resources>
