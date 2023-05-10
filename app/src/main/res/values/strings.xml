@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">Aston_lesson_2</string>
+    <string name="app_name">Aston_2</string>
+    <string name="happy_birthday">Happy Birthday to Алексей!</string>
+    <string name="_1_1_android_studio_and_hello_world">1.1: Android Studio and Hello World</string>
+    <string name="ops">Ooppss..</string>
+    <string name="challange11">На экране текст для Coding Challange :)</string>
+
 </resources>
