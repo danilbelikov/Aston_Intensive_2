@@ -46,7 +46,6 @@ class Lesson12BActivity : AppCompatActivity() {
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putInt(KEY_COUNTER, mCount)
-
     }
     private fun renderState(view: TextView,bZero: Button, bCount: Button) {
         view.text = mCount.toString()

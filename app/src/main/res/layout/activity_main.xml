@@ -14,7 +14,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:backgroundTint="@color/gray"/>
     <Button
         android:id="@+id/b1_2"
         android:layout_width="wrap_content"
@@ -24,7 +25,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b1_1" />
+        app:layout_constraintTop_toBottomOf="@+id/b1_1"
+        android:backgroundTint="@color/gray"/>
     <Button
         android:id="@+id/b12B"
         android:layout_width="wrap_content"
@@ -34,7 +36,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b1_2" />
+        app:layout_constraintTop_toBottomOf="@+id/b1_2"
+        android:backgroundTint="@color/gray"/>
     <Button
         android:id="@+id/b13"
         android:layout_width="wrap_content"
@@ -44,7 +47,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b12B" />
+        app:layout_constraintTop_toBottomOf="@+id/b12B"
+        android:backgroundTint="@color/gray"/>
 
     <Button
         android:id="@+id/b14"
@@ -55,7 +59,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b13" />
+        app:layout_constraintTop_toBottomOf="@+id/b13"
+        android:backgroundTint="@color/gray"/>
 
     <Button
         android:id="@+id/b21"
@@ -66,7 +71,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b14" />
+        app:layout_constraintTop_toBottomOf="@+id/b14"
+        android:backgroundTint="@color/teal_700"/>
 
     <Button
         android:id="@+id/b21Task"
@@ -77,7 +83,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b21" />
+        app:layout_constraintTop_toBottomOf="@+id/b21"
+        android:backgroundTint="@color/teal_700"/>
 
     <Button
         android:id="@+id/b21Homework"
@@ -88,6 +95,19 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/b21Task" />
+        app:layout_constraintTop_toBottomOf="@+id/b21Task"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/b22Challenge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/_2_2_coding_challenge"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b21Homework"
+        android:backgroundTint="@color/teal_700"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
 

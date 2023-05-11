@@ -63,4 +63,9 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string name="say_hello">Say hello</string>
     <string name="hello_sign">Hello!</string>
     <string name="_2_1_homework">2.1 Homework</string>
+    <string name="add_item">Add item</string>
+    <string name="next">next</string>
+    <string name="select">select</string>
+    <string name="_2_2_coding_challenge">2.2 Coding Challenge</string>
+    <string-array name="food_names"><item>Рис</item>,<item>Помидор</item>,<item>Лапша</item>,<item>Огурец</item>,<item>Каша</item>,<item>Сыр</item>,<item>Чай</item>,<item>Молоко</item>,<item>Кефир</item>,<item>Пончик</item></string-array>
 </resources>

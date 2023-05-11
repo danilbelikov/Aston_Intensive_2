@@ -13,6 +13,7 @@ import com.example.aston_lesson_2.lesson_13.Lesson13Activity
 import com.example.aston_lesson_2.lesson_21.FirstActivity
 import com.example.aston_lesson_2.lesson_21.homework_21.UnoActivity
 import com.example.aston_lesson_2.lesson_21.lesson_21_task.Lesson21Task1Activity
+import com.example.aston_lesson_2.lesson_22.challenge.ListActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
         val button21 = findViewById<Button>(R.id.b21)
         val button21Task = findViewById<Button>(R.id.b21Task)
         val button21Homework = findViewById<Button>(R.id.b21Homework)
+        val button22Challenge = findViewById<Button>(R.id.b22Challenge)
 
         button11.setOnClickListener {
             val intent11 = Intent(this, Lesson11Activity::class.java)
@@ -41,7 +43,6 @@ class MainActivity : AppCompatActivity() {
             val intent12b = Intent(this, Lesson12BActivity::class.java)
             startActivity(intent12b)
         }
-
         button13.setOnClickListener {
             val intent13 = Intent(this, Lesson13Activity::class.java)
             startActivity(intent13)
@@ -60,6 +61,11 @@ class MainActivity : AppCompatActivity() {
         button21Homework.setOnClickListener {
             val intent21Homework = Intent(this, UnoActivity::class.java)
             startActivity(intent21Homework)
+        }
+
+        button22Challenge.setOnClickListener {
+            val button22Challenge = Intent(this, ListActivity::class.java)
+            startActivity(button22Challenge)
         }
     }
 }
