@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
+
     <Button
         android:id="@+id/b1_1"
         android:layout_width="wrap_content"
@@ -120,6 +121,18 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/b22Challenge"
+        android:backgroundTint="@color/teal_700"/>
+
+    <Button
+        android:id="@+id/b23Homework"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/_2_3_homework"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/b22Homework"
         android:backgroundTint="@color/teal_700"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
 

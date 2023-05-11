@@ -14,6 +14,5 @@ class DosActivity : AppCompatActivity() {
         val tvHello = findViewById<TextView>(R.id.tvHello)
         val countRecieved = intent.getStringExtra(TAG)
         tvHello.text = "${getString(R.string.hello_sign)} \n $countRecieved"
-
     }
 }

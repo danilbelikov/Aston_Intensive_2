@@ -15,6 +15,7 @@ import com.example.aston_lesson_2.lesson_21.FirstActivity
 import com.example.aston_lesson_2.lesson_21.homework_21.UnoActivity
 import com.example.aston_lesson_2.lesson_21.lesson_21_task.Lesson21Task1Activity
 import com.example.aston_lesson_2.lesson_22.challenge.ListActivity
+import com.example.aston_lesson_2.lesson_23.FinalActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -31,6 +32,7 @@ class MainActivity : AppCompatActivity() {
         val button21Homework = findViewById<Button>(R.id.b21Homework)
         val button22Challenge = findViewById<Button>(R.id.b22Challenge)
         val button22Homework = findViewById<Button>(R.id.b22Homework)
+        val button23Homework = findViewById<Button>(R.id.b23Homework)
 
         button11.setOnClickListener {
             val intent11 = Intent(this, Lesson11Activity::class.java)
@@ -72,6 +74,11 @@ class MainActivity : AppCompatActivity() {
         button22Homework.setOnClickListener {
             val intent22Homework = Intent(this, ExampleActivity::class.java)
             startActivity(intent22Homework)
+        }
+
+        button23Homework.setOnClickListener {
+            val intent23Homework = Intent(this, FinalActivity::class.java)
+            startActivity(intent23Homework)
         }
     }
 }

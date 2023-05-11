@@ -27,25 +27,24 @@ class Lesson21Task1Activity : AppCompatActivity() {
         val tvRecieved = findViewById<TextView>(R.id.text_header_reply)
         val tvMessageRecieved = findViewById<TextView>(R.id.text_message_reply)
 
-        launcher = registerForActivityResult(ActivityResultContracts.StartActivityForResult()) {
-                result: ActivityResult ->
-            if (result.resultCode == RESULT_OK) {
-                val text = result.data?.getStringExtra(EXTRA_REPLY)
-                tvMessageRecieved.text = text
-                tvMessageRecieved.visibility = View.VISIBLE
-                tvRecieved.visibility = View.VISIBLE
+        launcher =
+            registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result: ActivityResult ->
+                if (result.resultCode == RESULT_OK) {
+                    val text = result.data?.getStringExtra(EXTRA_REPLY)
+                    tvMessageRecieved.text = text
+                    tvMessageRecieved.visibility = View.VISIBLE
+                    tvRecieved.visibility = View.VISIBLE
+                }
             }
-        }
         var mMessageEditText: EditText? = null
         mMessageEditText = findViewById(R.id.editText_main)
 
         val mainButton = findViewById<Button>(R.id.button_main)
 
         mainButton.setOnClickListener {
-
             val intent = Intent(this, Lesson21Task2Activity::class.java)
             val message = mMessageEditText.text.toString()
-            intent.putExtra(EXTRA_MESSAGE,message)
+            intent.putExtra(EXTRA_MESSAGE, message)
             launcher!!.launch(intent)
             Log.d(LOG_TAG, "Button clicked")
         }

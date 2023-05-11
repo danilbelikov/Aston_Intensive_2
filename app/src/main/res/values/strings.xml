@@ -72,4 +72,16 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string-array name="food_names"><item>Рис</item>,<item>Помидор</item>,<item>Лапша</item>,<item>Огурец</item>,<item>Каша</item>,<item>Сыр</item>,<item>Чай</item>,<item>Молоко</item>,<item>Кефир</item>,
         <item>Пончик</item>
     </string-array>
+
+    <string name="edittext_uri">http://developer.android.com</string>
+    <string name="button_uri">Open Website</string>
+
+    <string name="edittext_loc">Golden Gate Bridge</string>
+    <string name="button_loc">Open Location</string>
+
+    <string name="edittext_share">\'Twas brillig and the slithy toves</string>
+    <string name="button_share">Share This Text</string>
+    <string name="share_text_with">Share This Text</string>
+    <string name="_2_3_homework">2.3 Homework</string>
+    <string name="take_a_picture">Take a picture</string>
 </resources>

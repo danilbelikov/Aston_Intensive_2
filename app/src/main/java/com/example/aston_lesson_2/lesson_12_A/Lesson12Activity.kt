@@ -6,7 +6,9 @@ import android.widget.TextView
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.aston_lesson_2.R
+
 const val KEY_COUNTER = "Counter"
+
 class Lesson12Activity : AppCompatActivity() {
     var mCount = 0
     override fun onCreate(savedInstanceState: Bundle?) {

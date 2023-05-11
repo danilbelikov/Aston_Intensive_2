@@ -34,20 +34,23 @@ class Lesson12BActivity : AppCompatActivity() {
         }
         bZero.setOnClickListener {
             mCount = 0
-            renderState(mShowCount, bZero,bCount)
+            renderState(mShowCount, bZero, bCount)
             bZero.setBackgroundColor(applicationContext.getColor(R.color.gray))
             bCount.setBackgroundColor(applicationContext.getColor(R.color.blue))
         }
     }
+
     private fun increment(view: TextView) {
         mCount++
         view.text = mCount.toString()
     }
+
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putInt(KEY_COUNTER, mCount)
     }
-    private fun renderState(view: TextView,bZero: Button, bCount: Button) {
+
+    private fun renderState(view: TextView, bZero: Button, bCount: Button) {
         view.text = mCount.toString()
         if (mCount > 0) {
             bZero.setBackgroundColor(applicationContext.getColor(R.color.pink))
