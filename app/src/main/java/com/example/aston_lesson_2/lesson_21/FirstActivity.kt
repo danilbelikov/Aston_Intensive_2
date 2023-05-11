@@ -9,9 +9,11 @@ import androidx.activity.result.ActivityResult
 import androidx.activity.result.ActivityResultLauncher
 import androidx.activity.result.contract.ActivityResultContracts
 import com.example.aston_lesson_2.R
+
 const val EXTRA_MESSAGE = "com.example.android.aston_2.extra.MESSAGE"
 const val EXTRA_MESSAGE2 = "com.example.android.aston_2.extra.MESSAGE2"
 const val EXTRA_MESSAGE3 = "com.example.android.aston_2.extra.MESSAGE3"
+
 class FirstActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
