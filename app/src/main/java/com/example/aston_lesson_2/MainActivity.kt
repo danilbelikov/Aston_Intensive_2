@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import com.example.aston_lesson_2.lesoon_22homework.ExampleActivity
 import com.example.aston_lesson_2.lesson_11.Lesson11Activity
 import com.example.aston_lesson_2.lesson_11.TAG
 import com.example.aston_lesson_2.lesson_12_A.Lesson12Activity
@@ -29,6 +30,7 @@ class MainActivity : AppCompatActivity() {
         val button21Task = findViewById<Button>(R.id.b21Task)
         val button21Homework = findViewById<Button>(R.id.b21Homework)
         val button22Challenge = findViewById<Button>(R.id.b22Challenge)
+        val button22Homework = findViewById<Button>(R.id.b22Homework)
 
         button11.setOnClickListener {
             val intent11 = Intent(this, Lesson11Activity::class.java)
@@ -62,10 +64,14 @@ class MainActivity : AppCompatActivity() {
             val intent21Homework = Intent(this, UnoActivity::class.java)
             startActivity(intent21Homework)
         }
-
         button22Challenge.setOnClickListener {
-            val button22Challenge = Intent(this, ListActivity::class.java)
-            startActivity(button22Challenge)
+            val intent22Challenge = Intent(this, ListActivity::class.java)
+            startActivity(intent22Challenge)
+        }
+
+        button22Homework.setOnClickListener {
+            val intent22Homework = Intent(this, ExampleActivity::class.java)
+            startActivity(intent22Homework)
         }
     }
 }
