@@ -60,4 +60,7 @@ This volume starts with the first new Beatle song, “Free as a Bird” (based o
     <string name="editText_second">Enter Your Reply Here</string>
     <string name="_2_1_deprecated">2.1 Переделанный метод из тасков (не deprecated)</string>
     <string name="icon_changed_string">Иконка приложения изменена</string>
+    <string name="say_hello">Say hello</string>
+    <string name="hello_sign">Hello!</string>
+    <string name="_2_1_homework">2.1 Homework</string>
 </resources>

@@ -11,6 +11,7 @@ import com.example.aston_lesson_2.lesson_12_A.Lesson12Activity
 import com.example.aston_lesson_2.lesson_12_B.Lesson12BActivity
 import com.example.aston_lesson_2.lesson_13.Lesson13Activity
 import com.example.aston_lesson_2.lesson_21.FirstActivity
+import com.example.aston_lesson_2.lesson_21.homework_21.UnoActivity
 import com.example.aston_lesson_2.lesson_21.lesson_21_task.Lesson21Task1Activity
 
 class MainActivity : AppCompatActivity() {
@@ -25,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         val button14 = findViewById<Button>(R.id.b14)
         val button21 = findViewById<Button>(R.id.b21)
         val button21Task = findViewById<Button>(R.id.b21Task)
-
+        val button21Homework = findViewById<Button>(R.id.b21Homework)
 
         button11.setOnClickListener {
             val intent11 = Intent(this, Lesson11Activity::class.java)
@@ -56,6 +57,9 @@ class MainActivity : AppCompatActivity() {
             val intent21Task = Intent(this, Lesson21Task1Activity::class.java)
             startActivity(intent21Task)
         }
-
+        button21Homework.setOnClickListener {
+            val intent21Homework = Intent(this, UnoActivity::class.java)
+            startActivity(intent21Homework)
+        }
     }
 }
