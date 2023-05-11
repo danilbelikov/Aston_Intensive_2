@@ -10,6 +10,7 @@ import com.example.aston_lesson_2.lesson_11.TAG
 import com.example.aston_lesson_2.lesson_12_A.Lesson12Activity
 import com.example.aston_lesson_2.lesson_12_B.Lesson12BActivity
 import com.example.aston_lesson_2.lesson_13.Lesson13Activity
+import com.example.aston_lesson_2.lesson_21.FirstActivity
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -21,6 +22,7 @@ class MainActivity : AppCompatActivity() {
         val button12b = findViewById<Button>(R.id.b12B)
         val button13 = findViewById<Button>(R.id.b13)
         val button14 = findViewById<Button>(R.id.b14)
+        val button21 = findViewById<Button>(R.id.b21)
 
 
         button11.setOnClickListener {
@@ -43,6 +45,10 @@ class MainActivity : AppCompatActivity() {
         }
         button14.setOnClickListener {
             Toast.makeText(this, "Иконка приложения изменена", Toast.LENGTH_LONG).show()
+        }
+        button21.setOnClickListener {
+            val intent21 = Intent(this, FirstActivity::class.java)
+            startActivity(intent21)
         }
 
     }
